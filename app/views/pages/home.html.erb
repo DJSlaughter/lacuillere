@@ -1,0 +1,10 @@
+<p>Find the best restuarants nearby</p>
+<h2>The current time is <%= Time.now %></h2>
+
+<% categories = %w(indian sushi french) %>
+
+<ul>
+<% categories.each do |category| %>
+  <li><%= category %></li>
+  <% end %>
+</ul>
